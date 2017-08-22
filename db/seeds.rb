@@ -7,9 +7,10 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-User.create(name: Faker::Name.unique.name, email: Faker::Internet.unique.email)
-User.create(name: Faker::Name.unique.name, email: Faker::Internet.unique.email)
-User.create(name: Faker::Name.unique.name, email: Faker::Internet.unique.email)
-User.create(name: Faker::Name.unique.name, email: Faker::Internet.unique.email)
-User.create(name: Faker::Name.unique.name, email: Faker::Internet.unique.email)
-User.create(name: Faker::Name.unique.name, email: Faker::Internet.unique.email)
+User.create(username: Faker::Name.unique.name)
+User.create(username: Faker::Name.unique.name)
+User.create(username: Faker::Name.unique.name)
+User.create(username: Faker::Name.unique.name)
+User.create(username: Faker::Name.unique.name)
+User.create(username: Faker::Name.unique.name)
+User.create(username: Faker::Name.unique.name)
